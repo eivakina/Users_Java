@@ -15,5 +15,11 @@ public class Main {
         post.birthdate.day = 13;
         post.birthdate.month = 6;
         post.birthdate.year = 1999;
+
+        System.out.println("Пользователь: " + post.surname + " " + post.name + " " + post.patronymic);
+        System.out.println("Паспорт: " + post.passport);
+        System.out.println("Телефон: " + post.phone);
+        System.out.println("Новости о скидках: " + (post.subscription ? "Да" : "Нет"));
+        System.out.println("Дата рождения: " + post.birthdate.day + "." + post.birthdate.month + "." + post.birthdate.year);
     }
 }
